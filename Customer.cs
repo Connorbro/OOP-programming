@@ -9,6 +9,7 @@ namespace OOP
 {
     public class Customer
     {
+        public string FirstName { get; set; }
         private string _lastName;
         public string LastName
         {
@@ -21,5 +22,6 @@ namespace OOP
                 _lastName = value;
             }
         }
+
     }
 }
