@@ -3,8 +3,12 @@ namespace OOP
 {
     public class MyClass
     {
-        public MyClass()
+        public class Customer
         {
+            private void clap()
+            {
+            }
+
         }
     }
 }
