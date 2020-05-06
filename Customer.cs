@@ -19,7 +19,7 @@ namespace ACM.BL
         {
             get
             {
-                Console.WriteLine("HEY");
+                Console.WriteLine(" HEY");
                 string fullName = LastName;
                 if (!string.IsNullOrWhiteSpace(FirstName))
                 {
