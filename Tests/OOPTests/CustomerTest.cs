@@ -1,13 +1,19 @@
 using System;
-using Xunit;
+using ACM.BL;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace OOPTests
 {
-    public class UnitTest1
+    [TestClass]
+    public class CustomerTest
     {
-        [Fact]
-        public void Test1()
+        [TestMethod]
+        public void FullNameTestValid()
         {
+            Customer customer = new Customer();
+            customer.FirstName = "Connor";
+            customer.LastName = "Brookes";
+
         }
     }
 }

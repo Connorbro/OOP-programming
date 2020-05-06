@@ -19,6 +19,7 @@ namespace ACM.BL
         {
             get
             {
+                Console.WriteLine("HEY");
                 string fullName = LastName;
                 if (!string.IsNullOrWhiteSpace(FirstName))
                 {
@@ -33,7 +34,7 @@ namespace ACM.BL
         }
 
         private string _lastName;
-        public string LastName
+        public string LastName 
         {
             get
             {
