@@ -14,6 +14,15 @@ namespace OOP
 
         public string FirstName { get; set; }
 
+        public string FullName
+
+        {
+            get
+            {
+                return LastName + "," + FirstName;
+            }
+        }
+
         private string _lastName;
         public string LastName
         {
