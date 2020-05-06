@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP.csproj", "{90AA4CD6-1505-4B20-9628-016B25F77B97}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E2A17190-16DF-49CB-A3C3-F98CE877D9EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTests", "Tests\OOPTests\OOPTests.csproj", "{17FC5DA5-F97F-4603-B9B4-85FD99E46174}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,12 @@ Global
 		{90AA4CD6-1505-4B20-9628-016B25F77B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90AA4CD6-1505-4B20-9628-016B25F77B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90AA4CD6-1505-4B20-9628-016B25F77B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FC5DA5-F97F-4603-B9B4-85FD99E46174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FC5DA5-F97F-4603-B9B4-85FD99E46174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FC5DA5-F97F-4603-B9B4-85FD99E46174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FC5DA5-F97F-4603-B9B4-85FD99E46174}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17FC5DA5-F97F-4603-B9B4-85FD99E46174} = {E2A17190-16DF-49CB-A3C3-F98CE877D9EF}
 	EndGlobalSection
 EndGlobal
