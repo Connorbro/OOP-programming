@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace OOP
+namespace ACM.BL
 {
     public class Customer
     {
@@ -24,9 +24,11 @@ namespace OOP
                 {
                     if (!string.IsNullOrWhiteSpace(fullName))
                     {
-
+                        fullName += " , ";
                     }
+                    fullName += FirstName;
                 }
+                return fullName;
             }
         }
 
