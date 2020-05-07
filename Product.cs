@@ -26,7 +26,9 @@ namespace ACM.BL
         public bool Validate()
 
         {
+            var isValid = true;
 
+            if(string.IsNullOrWhiteSpace(ProductName))
         }
     }
 }
