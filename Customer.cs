@@ -46,6 +46,11 @@ namespace ACM.BL
                 _lastName = value;
             }
         }
+        public bool Validate()
+        {
+            var isValid = true;
+        }
+
 
     }
 }
