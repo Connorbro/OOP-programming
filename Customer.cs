@@ -50,6 +50,8 @@ namespace ACM.BL
         {
             var isValid = true;
 
+            if (string.IsNullOrWhiteSpace(LastName)) isValid = false;
+
             return isValid;
         }
 
