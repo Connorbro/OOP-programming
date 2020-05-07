@@ -19,6 +19,10 @@ namespace ACM.BL
         {
             return new Product();
         }
+        public bool Save()
+        {
+            return true;
+        }
     }
 }
 
