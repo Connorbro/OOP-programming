@@ -13,6 +13,8 @@ namespace ACM.BL
         {
 
         }
+        public Customer(int customerId)
+
         public int CustomerId { get; private set; }
         public string EmailAdress { get; set; }
 
