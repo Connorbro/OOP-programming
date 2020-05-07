@@ -54,7 +54,7 @@ namespace ACM.BL
             if (string.IsNullOrWhiteSpace(EmailAdress)) isValid = false;
             return isValid;
         }
-
+        //HAVING A PROBLEM WITH UNIT TESTING!   
 
     }
 }
