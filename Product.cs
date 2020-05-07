@@ -23,6 +23,11 @@ namespace ACM.BL
         {
             return true;
         }
+        public bool Validate()
+
+        {
+
+        }
     }
 }
 
