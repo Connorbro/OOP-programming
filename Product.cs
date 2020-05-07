@@ -10,6 +10,8 @@ namespace ACM.BL
         {
          ProductId = productId;
         }
+        public decimal? CurrentPrice;
+        
     }
 }
 
