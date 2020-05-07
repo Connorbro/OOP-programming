@@ -30,6 +30,8 @@ namespace ACM.BL
 
             if (string.IsNullOrWhiteSpace(ProductName)) isValid = false;
             if (CurrentPrice == null) isValid = false;
+
+            return isValid;
         }
     }
 }
