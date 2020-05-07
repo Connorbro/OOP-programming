@@ -9,6 +9,10 @@ namespace ACM.BL
 {
     public class Customer
     {
+        public Customer()
+        {
+
+        }
         public int CustomerId { get; private set; }
         public string EmailAdress { get; set; }
 
