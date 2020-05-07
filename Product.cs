@@ -12,7 +12,7 @@ namespace ACM.BL
         }
         public decimal? CurrentPrice { get; set; }
 
-        public int ProductId { get; set; }
+        public int ProductId { get; private set; }
         
     }
 }
