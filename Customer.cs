@@ -19,7 +19,7 @@ namespace ACM.BL
         {
             get
             {
-                Console.WriteLine(" HEY");
+                
                 string fullName = LastName;
                 if (!string.IsNullOrWhiteSpace(FirstName))
                 {
@@ -32,6 +32,7 @@ namespace ACM.BL
                 return fullName;
             }
         }
+        public int InstanceCount { get; set; }
 
         private string _lastName;
         public string LastName 
