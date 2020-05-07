@@ -6,5 +6,10 @@ namespace ACM.BL
         public Order()
         {
         }
+        public Order(int orderId)
+        {
+            OrderId = orderId;
+        }
+        
     }
 }
